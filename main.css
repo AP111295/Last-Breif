@@ -46,4 +46,16 @@ section {
   background-repeat: no-repeat;
   background-position: right;
   height: 1000px;
+}
+
+.Hero-text {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.Hero-text h1 {
+  font-size: 3rem;
+}
+.Hero-text p {
+  font-size: 2rem;
+  letter-spacing: 3px;
 }/*# sourceMappingURL=main.css.map */

@@ -4,3 +4,14 @@ section {
   background-position: right;
   height: 1000px;
 }
+.Hero-text {
+  padding-top: 10%;
+  padding-left: 10%;
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+}
