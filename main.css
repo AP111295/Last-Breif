@@ -16,12 +16,6 @@ h1 {
   font-size: inherit;
 }
 
-<<<<<<< HEAD
-section {
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: right;
-=======
 .navigation {
   display: flex;
   box-shadow: 1px 1px 5px lightgrey;
@@ -45,5 +39,11 @@ section {
 }
 .navigation__links a:hover {
   text-decoration: underline;
->>>>>>> d25ef4a07128c3f99a09fe9dbf2864aaa8b25539
+}
+
+section {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1000px;
 }/*# sourceMappingURL=main.css.map */
