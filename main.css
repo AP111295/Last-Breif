@@ -14,4 +14,10 @@ h1 {
   font-family: "Montserrat", serif;
   font-weight: 600;
   font-size: inherit;
+}
+
+section {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: right;
 }/*# sourceMappingURL=main.css.map */
