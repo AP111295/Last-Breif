@@ -16,6 +16,13 @@ h1 {
   font-size: inherit;
 }
 
+.footer__links {
+  justify-content: end;
+  align-items: center;
+  border-top: 2px solid #019961;
+  height: 100px;
+}
+
 .navigation {
   display: flex;
   box-shadow: 1px 1px 5px lightgrey;
@@ -26,18 +33,18 @@ h1 {
   width: 8%;
   margin-left: 5%;
 }
-.navigation__links {
+.navigation__links, .footer__links {
   display: flex;
 }
-.navigation__links li {
+.navigation__links li, .footer__links li {
   list-style: none;
 }
-.navigation__links a {
+.navigation__links a, .footer__links a {
   text-decoration: none;
   margin: 15px;
   color: #019961;
 }
-.navigation__links a:hover {
+.navigation__links a:hover, .footer__links a:hover {
   text-decoration: underline;
 }
 
