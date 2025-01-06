@@ -1,4 +1,17 @@
 body {
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: inherit;
 }/*# sourceMappingURL=main.css.map */
