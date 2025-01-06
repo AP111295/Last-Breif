@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["base/_reset.scss","main.css","base/_typographie.scss","pages/_apropos.scss"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,YAAA;ACCF;;ACHA;EACE,4BAAA;EACA,gBAAA;EACA,kBAAA;EACA,eAAA;ADMF;;ACHA;EACE,gCAAA;EACA,gBAAA;EACA,kBAAA;ADMF;;AEhBA;EACE,aAAA;EACA,4BAAA;EACA,0BAAA;AFmBF","file":"main.css"}
+=======
+{"version":3,"sources":["base/_reset.scss","main.css","base/_typographie.scss","layout/_navigation.scss","abstracts/_mixins.scss","abstracts/_variables.scss"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,YAAA;ACCF;;ACHA;EACE,4BAAA;EACA,gBAAA;EACA,kBAAA;EACA,eAAA;ADMF;;ACHA;EACE,gCAAA;EACA,gBAAA;EACA,kBAAA;ADMF;;AEhBA;EACE,aAAA;EACA,iCAAA;EACA,mBAAA;EACA,YAAA;AFmBF;AElBE;EACE,SAAA;EACA,eAAA;AFoBJ;AElBE;EACE,aAAA;AFoBJ;AElBI;EACE,gBAAA;AFoBN;AElBI;ECdF,qBAAA;EACA,YAAA;EDeI,cEdG;AJmCT;AEpBM;EACE,0BAAA;AFsBR","file":"main.css"}
+>>>>>>> d25ef4a07128c3f99a09fe9dbf2864aaa8b25539

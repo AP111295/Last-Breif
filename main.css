@@ -16,8 +16,34 @@ h1 {
   font-size: inherit;
 }
 
+<<<<<<< HEAD
 section {
   display: flex;
   background-repeat: no-repeat;
   background-position: right;
+=======
+.navigation {
+  display: flex;
+  box-shadow: 1px 1px 5px lightgrey;
+  align-items: center;
+  height: 70px;
+}
+.navigation__logo {
+  width: 8%;
+  margin-left: 5%;
+}
+.navigation__links {
+  display: flex;
+}
+.navigation__links li {
+  list-style: none;
+}
+.navigation__links a {
+  text-decoration: none;
+  margin: 15px;
+  color: #019961;
+}
+.navigation__links a:hover {
+  text-decoration: underline;
+>>>>>>> d25ef4a07128c3f99a09fe9dbf2864aaa8b25539
 }/*# sourceMappingURL=main.css.map */
