@@ -13,11 +13,27 @@
     <title>A Propos</title>
   </head>
   <body>
+    <nav>
+      <div class="navigation">
+        <img
+          src="images/Groupe152.svg"
+          alt="Logo CO2 Web"
+          class="navigation__logo"
+        />
+        <ul class="navigation__links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="modeEmploi.html">Mode d'emploi</a></li>
+          <li><a href="trouverVelib.html">Trouver un velib</a></li>
+          <li><a href="calculateur.html">Calculateur</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <!-- Slideshow container -->
     <div class="slideshow-container">
       <div class="myslides fade">
         <section style="background-image: url('/images/Groupe146.svg')">
-          >
           <div class="Hero-text">
             <h1>
               <img class="dot" src="/images/Untitled design.png" alt="dot" />A
@@ -32,6 +48,7 @@
             </p>
           </div>
         </section>
+        <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
       <!-- second page -->
       <div class="myslides fade">
@@ -39,7 +56,7 @@
           <div class="image2">
             <img src="/images/screenshot.png" alt="" width="130%" />
           </div>
-          <div class="Hero-text-2">
+          <div class="Hero-text">
             <h1>
               <img class="dot2" src="/images/Untitled design.png" alt="dot" />A
               propos du projet
@@ -59,13 +76,26 @@
               />
             </div>
 
-            <p2>
+            <p2 class="large_p">
               Aenean egestas fermentum, at elementum ut ut eu,<br />
               feugiat sit feugiat morbi id ipsum tincidunt
             </p2>
           </div>
         </section>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
       </div>
     </div>
+    <script src="Apropos.js"></script>
+    <!--footersection-->
+    <footer>
+      <ul class="footer__links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="modeEmploi.html">Mode d'emploi</a></li>
+        <li><a href="trouverVelib.html">Trouver un velib</a></li>
+        <li><a href="calculateur.html">Calculateur</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </footer>
   </body>
 </html>

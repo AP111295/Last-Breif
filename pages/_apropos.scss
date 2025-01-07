@@ -1,3 +1,6 @@
+body {
+  margin: 5%;
+}
 section {
   background-repeat: no-repeat;
   background-position: right;
@@ -8,7 +11,7 @@ section {
   padding-top: 10%;
   padding-left: 10%;
   h1 {
-    font-size: 3rem;
+    margin: 0;
   }
   p {
     font-size: 1.5rem;
@@ -16,6 +19,7 @@ section {
     line-height: 3rem;
   }
 }
+
 .dot {
   width: 2%;
   margin-right: 10px;
@@ -26,24 +30,63 @@ section {
 }
 .Hero-text-2 {
   padding-right: 10%;
-
-  h1 {
-    font-size: 3rem;
-  }
-  p {
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    line-height: 3rem;
-  }
-  p2 {
-    font-size: 1.8rem;
-    letter-spacing: 3px;
-    line-height: 3rem;
-  }
 }
 
 .flexbox {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(67, 188, 54, 0.8);
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
