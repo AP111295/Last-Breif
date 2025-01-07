@@ -1,1 +1,18 @@
-
+section {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1000px;
+  background-size: contain;
+}
+.Hero-text {
+  padding-top: 10%;
+  padding-left: 10%;
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+}

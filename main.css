@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+.footer__links {
+  justify-content: end;
+  align-items: center;
+  border-top: 2px solid #019961;
+  height: 100px;
+}
+
+.navigation {
+  display: flex;
+  box-shadow: 1px 1px 5px lightgrey;
+  align-items: center;
+  height: 70px;
+}
+.navigation__logo {
+  width: 8%;
+  margin-left: 5%;
+}
+.navigation__links, .footer__links {
+  display: flex;
+}
+.navigation__links li, .footer__links li {
+  list-style: none;
+}
+.navigation__links a, .footer__links a {
+  text-decoration: none;
+  margin: 15px;
+  color: #019961;
+}
+.navigation__links a:hover, .footer__links a:hover {
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1000px;
+  background-size: contain;
+}
+
+.Hero-text {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.Hero-text h1 {
+  font-size: 3rem;
+}
+.Hero-text p {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}/*# sourceMappingURL=main.css.map */
