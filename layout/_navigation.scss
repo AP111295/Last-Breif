@@ -26,6 +26,9 @@ width: 100%;
       }
     }
   }
+  .hamburger {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -39,6 +42,26 @@ width: 100%;
     z-index: 3;
     background-color: $blanc;
 
+    .hamburger {
+      display: block;
+      font-size: larger;
+      font-weight: 900;
+      position: fixed;
+      z-index: 100;
+      top: 0.5rem;
+      right: 1rem;
+      padding: 4px;
+      color: $vert_4;
+      border: none;
+      background: white;
+      cursor: pointer;
+      i { font-style:normal;}
+      .closeIcon {
+        display: none;
+      }
+    }
+    
+
     &__logo {
       width: 30%;
       margin: 15px;
@@ -49,5 +72,23 @@ width: 100%;
         display: flex;
       }
     }
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateX(100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: $blanc;
+    color: $vert_4;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  .showMenu {
+    transform: translateX(0);
   }
 }
