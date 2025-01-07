@@ -1,18 +1,18 @@
 .navigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
   display: flex;
   box-shadow: 1px 1px 5px lightgrey;
   align-items: center;
   height: 70px;
-      label {
-display: none;
-    }
-    input {
-      display: none;
-    }
+  label {
+    display: none;
+  }
+  input {
+    display: none;
+  }
   &__logo {
     width: 8%;
     margin-left: 5%;
@@ -46,13 +46,12 @@ display: none;
     &__logo {
       width: 30%;
       margin: 15px;
-  }
-  &__links {
-    flex-direction: column;
-    ul {
-      display: flex;
-
     }
-}    
+    &__links {
+      flex-direction: column;
+      ul {
+        display: flex;
+      }
+    }
   }
 }
