@@ -53,6 +53,7 @@ section {
   background-repeat: no-repeat;
   background-position: right;
   height: 1000px;
+  background-size: contain;
 }
 
 .Hero-text {
@@ -63,6 +64,6 @@ section {
   font-size: 3rem;
 }
 .Hero-text p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 3px;
 }/*# sourceMappingURL=main.css.map */
