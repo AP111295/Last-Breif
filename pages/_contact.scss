@@ -1,8 +1,25 @@
-.contact__form  {
+.contact {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+    width: 80%;
+    
+&__leavesleft {
 display: flex;
-justify-content: center;
-align-items: center;
-width: 50%;
-box-shadow: 1px 1px 5px lightgrey;
-border-radius: 10px;
+flex-direction: column;
+
+    }
+&__form  {
+    box-shadow: 1px 1px 5px lightgrey;
+    &-columns {
+        display: flex;
+        border: yellow solid;
+.labelInput-column {
+    border: red solid;
+    display: flex;
+    flex-direction: column;
+}
+}
+}
 }
