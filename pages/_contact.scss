@@ -3,7 +3,10 @@
     display: flex;
     justify-content: space-around;
     z-index: 0;
-    width: 80%;
+    width: 100%;
+    img {
+        width: 50%;
+    }
     
 &__leavesleft {
 display: flex;
@@ -12,14 +15,43 @@ flex-direction: column;
     }
 &__form  {
     box-shadow: 1px 1px 5px lightgrey;
+    width: 150%;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+
     &-columns {
         display: flex;
-        border: yellow solid;
+
+        
+
+}
+.labelTextarea-column {
+    text-align: left;
+    margin: 20px;
+display: flex;
+flex-direction: column;
+}
+}
+} 
+
+
 .labelInput-column {
-    border: red solid;
+    text-align: left;
+    margin: 20px;
     display: flex;
     flex-direction: column;
+    width: 50%;
+
 }
-}
-}
-}
+.input-borderbottom {
+        color: lightgrey;
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: large;
+        border-bottom: 1px solid lightgrey;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-top: 20px;
+    }
