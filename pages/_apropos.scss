@@ -21,8 +21,8 @@ section {
   margin-right: 10px;
 }
 .Hero-text-2 {
-  padding-top: 10%;
-  padding-left: 10%;
+  padding-right: 10%;
+
   h1 {
     font-size: 3rem;
   }
@@ -31,4 +31,15 @@ section {
     letter-spacing: 3px;
     line-height: 3rem;
   }
+  p2 {
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    line-height: 3rem;
+  }
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
 }
