@@ -12,14 +12,52 @@
     />
     <title>Contact</title>
   </head>
-  <body>
+  <body><nav>
+    <div class="navigation">
+      <img
+        src="images/Groupe152.svg"
+        alt="Logo CO2 Web"
+        class="navigation__logo"
+      />
+      <ul class="navigation__links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="modeEmploi.html">Mode d'emploi</a></li>
+        <li><a href="trouverVelib.html">Trouver un velib</a></li>
+        <li><a href="calculateur.html">Calculateur</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="contact">
     <h1>Contactez-nous</h1>
-    <form>
+    <form class="contact__form">
+      <div class="contact__form-columns">
+        <div>
       <label for="first-name">Prénom</label>
-<input type="text" name="first-name" id="first-name">
+<input type="text" name="first-name" id="first-name"></div>
+<div>
 <label for="name">Nom</label>
-<input type="text" name="name" id="name">
+<input type="text" name="name" id="name"></div>
+<div>
+<label for="email">Votre email</label>
+<input type="email" name="email" id="email"></div>
+<div>
+<label for="tel">Téléphone</label>
+<input type="number" name="tel" id="tel"></div>
+</div>
+<label for="message">Votre message</label>
+<textarea name="message" id="message" rows="1">Message</textarea>
 
-    </form>
+    </form></main> <footer>
+      <ul class="footer__links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="modeEmploi.html">Mode d'emploi</a></li>
+        <li><a href="trouverVelib.html">Trouver un velib</a></li>
+        <li><a href="calculateur.html">Calculateur</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
