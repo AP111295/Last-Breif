@@ -1,4 +1,8 @@
 .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   box-shadow: 1px 1px 5px lightgrey;
   align-items: center;
