@@ -1,18 +1,14 @@
 .navigation {
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // width: 100%;
+position: fixed;
   display: flex;
   box-shadow: 1px 1px 5px lightgrey;
   align-items: center;
   height: 70px;
-  label {
-    display: none;
-  }
-  input {
-    display: none;
-  }
+background-color: $blanc;
+top: 0px;
+z-index: 10;
+width: 100%;
+
   &__logo {
     width: 8%;
     margin-left: 5%;
