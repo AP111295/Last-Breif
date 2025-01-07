@@ -1,12 +1,38 @@
 body {
   font-family: "Roboto", serif;
+  color: $gray;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: -0.30000001192092896px;
 }
 
 h1 {
   font-family: "Montserrat", serif;
   font-weight: 600;
-  font-size: inherit;
+  font-size: 50px;
+  line-height: 60.95px;
+  letter-spacing: -0.30000001192092896px;
+}
+
+.card_h2 {
+  font-family: "Montserrat", serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+}
+
+.card_p {
+  line-height: 30px;
+  text-align: center;
+}
+
+.large_p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -0.30000001192092896px;
 }
