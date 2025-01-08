@@ -14,3 +14,17 @@ footer {
     margin-top: 0px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  footer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .footer__links {
+      display: flex;
+      flex-direction: row !important;
+      flex-wrap: wrap;
+      padding-left: 0px;
+    }
+  }
+}

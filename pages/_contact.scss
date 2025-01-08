@@ -39,8 +39,12 @@
       padding: 50px 100px 50px 100px;
       border-radius: 10px;
 
-      .contact__form-columns {
+      .contact__form-columns1 {
         display: flex;
+      }
+
+      .contact__form-columns2 {
+        @extend .contact__form-columns1;
       }
       .labelTextarea-column {
         text-align: left;
@@ -73,4 +77,63 @@
   border-left: none;
   border-right: none;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    &__leavesleft {
+      display: none;
+    }
+    &__leavesright {
+      display: none;
+    }
+    .contact__container {
+      width: 90%;
+      margin: auto;
+      .contact__form {
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        .contact__form-columns1 {
+          flex-wrap: nowrap;
+          order: 2;
+
+          .labelInput-column {
+            width: 50%;
+            align-items: baseline;
+            input {
+              width: 100%;
+            }
+          }
+        }
+        .contact__form-columns2 {
+          width: 100%;
+          flex-wrap: wrap;
+          order: 1;
+          .labelInput-column {
+            width: 100%;
+            align-items: baseline;
+            input {
+              width: 100%;
+            }
+          }
+        }
+        .labelTextarea-column {
+          order: 3;
+        }
+        .contact__form-button {
+          order: 4;
+          margin: auto;
+          margin-bottom: 3%;
+        }
+      }
+    }
+  }
+
+  .labelInput-column {
+    width: 100%;
+    align-items: center;
+  }
 }
