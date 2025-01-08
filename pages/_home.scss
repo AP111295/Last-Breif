@@ -1,17 +1,16 @@
 .index {
-    border: red 2px solid;
     display: flex;
     width: 100%;
+    height: auto;
 
     &__description {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border: black 2px solid;
         width: 50%;
-        padding: 5%;
+        padding: 4%;
         padding-right: 15%;
-        margin-right: 5;
+        margin-right: 5%;
     }
 
     &__button {
@@ -24,10 +23,48 @@
             margin: 20px;
         }
     }
-
-
     img {
-        border: black 2px solid;
-        width: 50%;
+        position: relative;
+        width: 700px;
+        height: 800px;
+        bottom: 120px;
     }
 }
+
+
+  
+
+
+    @media screen and (max-width: 480px) {
+
+        .index {
+            flex-direction:column-reverse;
+            align-items: center;
+            overflow: hidden;
+            margin-top: 0px;
+
+            &__description {
+                width: 85%;
+                padding: 0px;
+                margin: 0px;
+
+                p {
+                    line-height: normal;
+                }
+            }
+        
+            &__button {
+                
+                p {
+                   
+                }
+            }
+            img {
+                position: relative;
+                left: 10%;
+                bottom: 5%;
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
