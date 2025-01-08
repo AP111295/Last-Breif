@@ -4,23 +4,27 @@
     width: 100%;
 
     &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         border: black 2px solid;
-        padding-top: 220px;
         width: 50%;
+        padding: 5%;
+        padding-right: 15%;
+        margin-right: 5;
     }
 
     &__button {
-        border: yellow 3px solid;
-        margin: 20px 200px 0 150px;
-        width: 50%;
+        text-align: center;
         display: flex;
-        justify-content: space-around;
+        justify-content: baseline;
+        align-items: center;
+
+        p {
+            margin: 20px;
+        }
     }
 
-    h1,
-    p {
-        margin: 0 200px 0 150px;
-    }
 
     img {
         border: black 2px solid;
