@@ -83,3 +83,43 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .calculateur {
+    margin-top: 15%;
+    &__leavesleft {
+      display: none;
+    }
+    &__leavesright {
+      display: none;
+    }
+    .calculateur__container {
+      width: 90%;
+      margin: auto;
+      button {
+        margin: auto;
+        margin-bottom: 10px;
+      }
+      .contact__form {
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+
+        .labelInput-column {
+          width: 90%;
+          align-items: baseline;
+          input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .labelInput-column {
+    width: 100%;
+    align-items: center;
+  }
+}
