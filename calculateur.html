@@ -20,18 +20,47 @@
           alt="Logo CO2 Web"
           class="navigation__logo"
         />
-        <ul class="navigation__links">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="modeEmploi.html">Mode d'emploi</a></li>
-          <li><a href="trouverVelib.html">Trouver un velib</a></li>
-          <li><a href="calculateur.html">Calculateur</a></li>
-          <li><a href="apropos.html">A propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
+
+        <ul class="navigation__links menu">
+          <li><a class="menuItem" href="index.html">Accueil</a></li>
+          <li><a class="menuItem" href="modeEmploi.html">Mode d'emploi</a></li>
+          <li>
+            <a class="menuItem" href="trouverVelib.html">Trouver un velib</a>
+          </li>
+          <li><a class="menuItem" href="calculateur.html">Calculateur</a></li>
+          <li><a class="menuItem" href="apropos.html">A propos</a></li>
+          <li><a class="menuItem" href="contact.html">Contact</a></li>
         </ul>
+        <button class="hamburger">
+          <i class="menuIcon">☰</i>
+          <i class="closeIcon">X</i>
+        </button>
       </div>
     </nav>
-    <a href="#"><button class="button btn_filled">Commencer</button></a>
-    <a href="#"><button class="button btn_outlined">En savoir plus</button></a>
+    <main>
+      <main class="calculateur">  
+        <!-- feuilles à gauche du formulaire -->    
+  <div class="calculateur__leavesleft">
+  <img src="/images/Groupe27.svg" alt="feuille">
+  <img src="/images/TracÔÇÜ76.svg" alt="feuille3">
+ </div>
+ <!-- titre et formulaire -->  
+ <div  class="calculateur__container">
+    <h1>Calculateur d'émissions de CO2 <br> Trajet domicile / travail en voiture</h1>
+  <form class="contact__form">
+<div class="labelInput-column">
+<label for="distance">Votre distance parcourue par jour (en kilomètres):</label>
+<input type="number" name="distance" id="distance" placeholder="www.exemple.com" class="input-borderbottom"></div>
+<div class="labelInput-column">
+<label for="jours-travaillés">Nombre de jours travaillés par semaine :</label>
+<input type="number" name="jours-travaillés" id="jours-travaillés" placeholder="Nombre" class="input-borderbottom"></div>
+<p>En utilisant cette calculatrice d'émission de carbone, vous acceptez que les informations soient inscrites et stockées dans notre base de données publique.</p>
+<input type="submit" value="Commencer" class="button btn_filled"></div>
+  </form>  </div> 
+  <!-- feuilles à droite du formulaire -->   
+  <div class="calculateur__leavesright">
+  <img src="/images/TracÔÇÜ69.svg" alt="feuille2"></div></div>
+    </main>
     <footer>
       <ul class="footer__links">
         <li><a href="index.html">Accueil</a></li>
