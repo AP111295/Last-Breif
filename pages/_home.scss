@@ -1,19 +1,19 @@
-.blocP {
+.index {
     border: red 2px solid;
     display: flex;
 
-    .blocE {
+    &__description {
         padding-top: 220px;
     }
-}
 
-.button_command {
-    border: yellow 3px solid;
-    display: flex;
-}
+    &__button {
+        border: yellow 3px solid;
+        display: flex;
+    }
 
-img {
-    border: black 2px solid;
-    width: 60%;
-    height: 90%;
+    img {
+        border: black 2px solid;
+        width: 60%;
+        height: 90%;
+    }
 }
