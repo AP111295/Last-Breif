@@ -39,8 +39,10 @@
       padding: 50px 100px 50px 100px;
       border-radius: 10px;
       .labelInput-column {
+        width: 100%;
         input {
           width: 100%;
+          color: lightgray;
         }
       }
     }
