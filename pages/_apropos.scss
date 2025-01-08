@@ -11,15 +11,34 @@ section {
 .image2 {
   padding-top: 7rem;
 }
+.underline {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .Hero-text {
   padding-top: 10%;
-  padding-right: 20%;
+  padding-right: 15%;
+  .hero-p1 {
+    font-family: "Montserrat", serif;
+    padding-top: 10%;
+    font-size: 22px;
+  }
+  .hero-p2 {
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+  }
 }
 .Hero-text2 {
   padding-top: 10%;
-  padding-left: 20%;
+  padding-left: 15%;
   padding-bottom: 8%;
+  .hero-p3 {
+    font-family: "Montserrat", serif;
+    padding-top: 4rem;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
 }
 .dot {
   width: 30px;
