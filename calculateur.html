@@ -37,15 +37,14 @@
         </button>
       </div>
     </nav>
-    <main>
       <main class="calculateur">  
         <!-- feuilles à gauche du formulaire -->    
   <div class="calculateur__leavesleft">
   <img src="/images/Groupe27.svg" alt="feuille">
   <img src="/images/TracÔÇÜ76.svg" alt="feuille3">
- </div>
- <!-- titre et formulaire -->  
- <div  class="calculateur__container">
+  </div>
+      <!-- titre et formulaire -->  
+<div class="calculateur__container">
     <h1>Calculateur d'émissions de CO2 <br> Trajet domicile / travail en voiture</h1>
   <form class="contact__form">
 <div class="labelInput-column">
@@ -53,13 +52,23 @@
 <input type="number" name="distance" id="distance" placeholder="www.exemple.com" class="input-borderbottom"></div>
 <div class="labelInput-column">
 <label for="jours-travaillés">Nombre de jours travaillés par semaine :</label>
-<input type="number" name="jours-travaillés" id="jours-travaillés" placeholder="Nombre" class="input-borderbottom"></div>
+
+<input type="number" name="jours-travaillés" id="jours-travaillés" placeholder="Nombre" class="input-borderbottom"></div><button class="button btn_filled" onclick="openForm(event)">Commencer</button>
 <p>En utilisant cette calculatrice d'émission de carbone, vous acceptez que les informations soient inscrites et stockées dans notre base de données publique.</p>
-<input type="submit" value="Commencer" class="button btn_filled"></div>
-  </form>  </div> 
+</div>
+  </form>
   <!-- feuilles à droite du formulaire -->   
   <div class="calculateur__leavesright">
-  <img src="/images/TracÔÇÜ69.svg" alt="feuille2"></div></div>
+  <img src="/images/TracÔÇÜ69.svg" alt="feuille2"></div>
+
+<!-- Fenêtre modale -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeForm()">&times;</span>
+    <p id="modalMessage">Les émissions de CO2 pour votre trajet domicile/travail seront affichées ici.</p>
+  </div>
+</div>
+
     </main>
     <footer>
       <ul class="footer__links">
