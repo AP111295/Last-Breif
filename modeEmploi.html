@@ -12,6 +12,7 @@
     />
     <title>Document</title>
   </head>
+
   <body>
     <nav>
       <div class="navigation">
@@ -31,18 +32,35 @@
           <li><a class="menuItem" href="apropos.html">A propos</a></li>
           <li><a class="menuItem" href="contact.html">Contact</a></li>
         </ul>
+
         <button class="hamburger">
           <i class="menuIcon">☰</i>
           <i class="closeIcon">X</i>
         </button>
       </div>
     </nav>
+
     <main id="mode_emploi_main">
       <h1 id="mode_emploi_h1">
         Comment ça <br />
         marche ?
       </h1>
+
       <div id="card">
+        <div class="menu">
+          <label for="slide-dot-1"></label>
+          <label for="slide-dot-2"></label>
+          <label for="slide-dot-3"></label>
+        </div>
+
+        <input
+          class="slide-input"
+          id="slide-dot-1"
+          type="radio"
+          name="slides"
+          checked
+        />
+
         <div class="card card_no_background">
           <img src="images/Groupe60.svg" alt="analyse" />
           <h2 class="card_h2">Analyser votre site</h2>
@@ -51,6 +69,14 @@
             ut lectus mauris id consequat, mattis interdum viverra eros, amet
           </p>
         </div>
+
+        <input
+          class="slide-input"
+          id="slide-dot-2"
+          type="radio"
+          name="slides"
+        />
+
         <div class="card card_background">
           <img id="background_circles" src="images/bubbles.svg" alt="" />
           <img id="demi_elipse" src="images/Ellipse 61.svg" alt="Ellipse" />
@@ -61,6 +87,13 @@
             ut lectus mauris id consequat, mattis interdum viverra eros, amet
           </p>
         </div>
+
+        <input
+          class="slide-input"
+          id="slide-dot-3"
+          type="radio"
+          name="slides"
+        />
         <div class="card card_no_background">
           <img src="images/Groupe64.svg" alt="analyse" />
           <h2 class="card_h2">Obtenez les résultats</h2>
@@ -82,5 +115,6 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </footer>
+    <script src="navigation.js"></script>
   </body>
 </html>
