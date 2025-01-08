@@ -1,8 +1,16 @@
-.footer__links {
-  @extend .navigation__links;
-  justify-content: end;
-  align-items: center;
-  border-top: 2px solid;
-  border-image: linear-gradient(to right, $vert_1, $vert_3) 1;
-  height: 100px;
+footer {
+  position: fixed;
+  top: 90%;
+  width: 100%;
+  z-index: 1;
+  background-color: $blanc;
+  .footer__links {
+    @extend .navigation__links;
+    justify-content: end;
+    align-items: center;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, $vert_1, $vert_3) 1;
+    height: 100px;
+    margin-top: 0px;
+  }
 }
