@@ -1,77 +1,75 @@
 .contact {
-    text-align: center;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    margin-top: 5%;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
 
-&__leavesleft {
-z-index: 0;
-display: flex;
-flex-direction: column;
-margin-top: 5%;
-margin-bottom: 5%;
-img {
-    margin: -10%;
-    width: 100%;
-    position: relative;
-    left: 40%
-}
- }
-
-&__leavesright {
+  &__leavesleft {
     z-index: 0;
-    img {width: 100%;
-    position: relative;
-right: 40%;}
-}
-    
-    .contact__container {    z-index: 1;
-        width: 100%;
-        margin: auto;
-        .contact__form  {
-            background-color: white;
-    box-shadow: 1px 1px 5px lightgrey;
-    padding: 50px 100px 50px 100px;
-    border-radius: 10px;
-
-
-.contact__form-columns {
-        display: flex;
-     
-}
-.labelTextarea-column {
-    text-align: left;
-    margin: 20px;
-display: flex;
-flex-direction: column;
-}
-&-button {
-    text-align: right;
-}
-}
-}
- }
-
-
-.labelInput-column {
-    text-align: left;
-    margin: 20px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    img {
+      margin: -10%;
+      width: 100%;
+      position: relative;
+      left: 40%;
+    }
+  }
 
+  &__leavesright {
+    z-index: 0;
+    img {
+      width: 100%;
+      position: relative;
+      right: 40%;
+    }
+  }
+
+  .contact__container {
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    .contact__form {
+      background-color: white;
+      box-shadow: 1px 1px 5px lightgrey;
+      padding: 50px 100px 50px 100px;
+      border-radius: 10px;
+
+      .contact__form-columns {
+        display: flex;
+      }
+      .labelTextarea-column {
+        text-align: left;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      &-button {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.labelInput-column {
+  text-align: left;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 .input-borderbottom {
-        color: lightgrey;
-        font-family: "Roboto", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: large;
-        border-bottom: 1px solid lightgrey;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        margin-top: 20px;
-    }
+  color: lightgrey;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  border-bottom: 1px solid lightgrey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+}

@@ -1,5 +1,4 @@
 .navigation {
-  position: fixed;
   display: flex;
   box-shadow: 1px 1px 5px lightgrey;
   align-items: center;
@@ -95,6 +94,8 @@
     li {
       border-bottom: solid $vert_4 1px;
       margin-bottom: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
     }
   }
   .showMenu {
