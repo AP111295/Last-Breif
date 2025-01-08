@@ -1,19 +1,29 @@
 .index {
     border: red 2px solid;
     display: flex;
+    width: 100%;
 
     &__description {
+        border: black 2px solid;
         padding-top: 220px;
+        width: 50%;
     }
 
     &__button {
         border: yellow 3px solid;
+        margin: 20px 200px 0 150px;
+        width: 50%;
         display: flex;
+        justify-content: space-around;
+    }
+
+    h1,
+    p {
+        margin: 0 200px 0 150px;
     }
 
     img {
         border: black 2px solid;
-        width: 60%;
-        height: 90%;
+        width: 50%;
     }
 }
