@@ -14,78 +14,126 @@
   </head>
   <body>
     <nav>
-    <div class="navigation">
-      <img
-        src="images/Groupe152.svg"
-        alt="Logo CO2 Web"
-        class="navigation__logo"
-      />
+      <div class="navigation">
+        <img
+          src="images/Groupe152.svg"
+          alt="Logo CO2 Web"
+          class="navigation__logo"
+        />
 
-      <ul class="navigation__links menu">
-        <li><a class="menuItem" href="index.html">Accueil</a></li>
-        <li><a class="menuItem" href="modeEmploi.html">Mode d'emploi</a></li>
-        <li><a class="menuItem" href="trouverVelib.html">Trouver un velib</a></li>
-        <li><a class="menuItem" href="calculateur.html">Calculateur</a></li>
-        <li><a class="menuItem" href="apropos.html">A propos</a></li>
-        <li><a class="menuItem onPage" href="contact.html">Contact</a></li>
+        <ul class="navigation__links menu">
+          <li><a class="menuItem" href="index.html">Accueil</a></li>
+          <li><a class="menuItem" href="modeEmploi.html">Mode d'emploi</a></li>
+          <li>
+            <a class="menuItem" href="trouverVelib.html">Trouver un velib</a>
+          </li>
+          <li><a class="menuItem" href="calculateur.html">Calculateur</a></li>
+          <li><a class="menuItem" href="apropos.html">A propos</a></li>
+          <li><a class="menuItem onPage" href="contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger">
+          <i class="menuIcon">☰</i>
+          <i class="closeIcon">X</i>
+        </button>
+      </div>
+    </nav>
+    <main class="contact">
+      <!-- feuilles à gauche du formulaire -->
+      <div class="contact__leavesleft">
+        <img src="/images/Groupe27.svg" alt="feuille" />
+        <img src="/images/TracÔÇÜ76.svg" alt="feuille3" />
+      </div>
+      <!-- titre et formulaire -->
+      <div class="contact__container">
+        <h1>Contactez-nous</h1>
+        <form class="contact__form">
+          <div class="contact__form-columns1">
+            <div class="labelInput-column">
+              <label for="first-name">Prénom</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Prénom"
+                class="input-borderbottom"
+              />
+            </div>
+            <div class="labelInput-column">
+              <label for="name">Nom</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nom"
+                class="input-borderbottom"
+              />
+            </div>
+          </div>
+          <div class="contact__form-columns2">
+            <div class="labelInput-column">
+              <label for="email">Votre email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="votre@email.com"
+                class="input-borderbottom"
+              />
+            </div>
+            <div class="labelInput-column">
+              <label for="tel">Téléphone</label>
+              <input
+                type="number"
+                name="tel"
+                id="tel"
+                placeholder="Numéro"
+                class="input-borderbottom"
+              />
+            </div>
+          </div>
+          <div class="labelTextarea-column">
+            <label for="message">Votre message</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              class="input-borderbottom"
+            >
+Message</textarea
+            >
+          </div>
+          <div class="contact__form-button">
+            <input type="submit" value="Commencer" class="button btn_filled" />
+          </div>
+        </form>
+      </div>
+      <!-- feuilles à droite du formulaire -->
+      <div class="contact__leavesright">
+        <div class="contact__leavesright-elipses">
+          <img src="/images/Ellipse 61(1).svg" alt="ellipse" />
+          <div class="contact__leavesright-elipseslittle">
+            <img src="/images/Ellipse 62.svg" alt="ellipse2" />
+            <img src="/images/Ellipse 63.svg" alt="ellipse3" />
+          </div>
+        </div>
+        <img src="/images/TracÔÇÜ69.svg" alt="feuille2" />
+      </div>
+    </main>
+    <footer>
+      <ul class="footer__links">
+        <li>
+          <p class="footer__copyright">
+            Copyright 2022 CO2WEB. All rights reserved.
+          </p>
+        </li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="modeEmploi.html">Mode d'emploi</a></li>
+        <li><a href="trouverVelib.html">Trouver un velib</a></li>
+        <li><a href="calculateur.html">Calculateur</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-      <button class="hamburger">
-        <i class="menuIcon">☰</i>
-        <i class="closeIcon">X</i>
-      </button>
-    </div>
-  </nav>
-  <main class="contact">  
-          <!-- feuilles à gauche du formulaire -->    
-    <div class="contact__leavesleft">
-    <img src="/images/Groupe27.svg" alt="feuille">
-    <img src="/images/TracÔÇÜ76.svg" alt="feuille3">
-   </div>
-   <!-- titre et formulaire -->  
-   <div  class="contact__container">
-      <h1>Contactez-nous</h1>
-    <form class="contact__form">
-
-      <div class="contact__form-columns1">
-        <div class="labelInput-column ">
-      <label for="first-name">Prénom</label>
-<input type="text" name="first-name" id="first-name" placeholder="Prénom" class="input-borderbottom"> </div>
-<div class="labelInput-column">
-<label for="name">Nom</label>
-<input type="text" name="name" id="name" placeholder="Nom" class="input-borderbottom"></div></div>
-<div class="contact__form-columns2">
-  <div class="labelInput-column">
-<label for="email">Votre email</label>
-<input type="email" name="email" id="email" placeholder="votre@email.com" class="input-borderbottom"></div>
-<div class="labelInput-column">
-<label for="tel">Téléphone</label>
-<input type="number" name="tel" id="tel" placeholder="Numéro" class="input-borderbottom"></div>
-</div>
-<div class="labelTextarea-column">
-<label for="message">Votre message</label>
-<textarea name="message" id="message" rows="4" class="input-borderbottom">Message</textarea></div>
-<div class="contact__form-button">
-<input type="submit" value="Commencer" class="button btn_filled"></div>
-    </form>  </div> 
-    <!-- feuilles à droite du formulaire -->   
-    <div class="contact__leavesright">
-      <div class="contact__leavesright-elipses">
-      <img src="/images/Ellipse 61(1).svg" alt="ellipse">
-      <div class="contact__leavesright-elipseslittle">
-      <img src="/images/Ellipse 62.svg" alt="ellipse2">
-      <img src="/images/Ellipse 63.svg" alt="ellipse3"></div></div>
-    <img src="/images/TracÔÇÜ69.svg" alt="feuille2"></div>
-  <footer>
-
-    <ul class="footer__links">      <p class="footer__copyright">Copyright 2022 CO2WEB. All rights reserved.</p>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="modeEmploi.html">Mode d'emploi</a></li>
-      <li><a href="trouverVelib.html">Trouver un velib</a></li>
-      <li><a href="calculateur.html">Calculateur</a></li>
-      <li><a href="apropos.html">A propos</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </footer>
+    </footer>
     <script src="navigation.js"></script>
   </body>
 </html>

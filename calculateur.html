@@ -27,7 +27,9 @@
           <li>
             <a class="menuItem" href="trouverVelib.html">Trouver un velib</a>
           </li>
-          <li><a class="menuItem onPage" href="calculateur.html">Calculateur</a></li>
+          <li>
+            <a class="menuItem onPage" href="calculateur.html">Calculateur</a>
+          </li>
           <li><a class="menuItem" href="apropos.html">A propos</a></li>
           <li><a class="menuItem" href="contact.html">Contact</a></li>
         </ul>
@@ -37,48 +39,84 @@
         </button>
       </div>
     </nav>
-      <main class="calculateur">  
-        <!-- feuilles à gauche du formulaire -->    
-  <div class="calculateur__leavesleft">
-  <img src="/images/Groupe27.svg" alt="feuille">
-  <img src="/images/TracÔÇÜ76.svg" alt="feuille3">
-  </div>
-      <!-- titre et formulaire -->  
-<div class="calculateur__container">
-    <h1 class="titre-display">Calculateur d'émissions de CO2 <br> Trajet domicile / travail en voiture</h1>
-    <h1 class="titre-mobile"> Calculez vos émissions</h1>
-  <form class="contact__form">
-<div class="labelInput-column">
-<label for="distance">Votre distance parcourue par jour (en kilomètres):</label>
-<input type="number" name="distance" id="distance" placeholder="www.exemple.com" class="input-borderbottom"></div>
-<div class="labelInput-column">
-<label for="jours-travaillés">Nombre de jours travaillés par semaine :</label>
+    <main class="calculateur">
+      <!-- feuilles à gauche du formulaire -->
+      <div class="calculateur__leavesleft">
+        <img src="/images/Groupe27.svg" alt="feuille" />
+        <img src="/images/TracÔÇÜ76.svg" alt="feuille3" />
+      </div>
+      <!-- titre et formulaire -->
+      <div class="calculateur__container">
+        <h1 class="titre-display">
+          Calculateur d'émissions de CO2 <br />
+          Trajet domicile / travail en voiture
+        </h1>
+        <h1 class="titre-mobile">Calculez vos émissions</h1>
+        <form class="contact__form">
+          <div class="labelInput-column">
+            <label for="distance"
+              >Votre distance parcourue par jour (en kilomètres):</label
+            >
+            <input
+              type="number"
+              name="distance"
+              id="distance"
+              placeholder="www.exemple.com"
+              class="input-borderbottom"
+            />
+          </div>
+          <div class="labelInput-column">
+            <label for="jours-travaillés"
+              >Nombre de jours travaillés par semaine :</label
+            >
 
-<input type="number" name="jours-travaillés" id="jours-travaillés" placeholder="Nombre" class="input-borderbottom"></div>
-<button class="button btn_filled" onclick="openForm(event)">Commencer</button>
-<p>En utilisant cette calculatrice d'émission de carbone, vous acceptez que les informations soient inscrites et stockées dans notre base de données publique.</p>
-</div>
-  </form>
-    <!-- feuilles à droite du formulaire -->   
-    <div class="calculateur__leavesright">
-      <div class="calculateur__leavesright-elipses">
-      <img src="/images/Ellipse 61(1).svg" alt="ellipse">
-      <div class="calculateur__leavesright-elipseslittle">
-      <img src="/images/Ellipse 62.svg" alt="ellipse2">
-      <img src="/images/Ellipse 63.svg" alt="ellipse3"></div></div>
-    <img src="/images/TracÔÇÜ69.svg" alt="feuille2"></div>
+            <input
+              type="number"
+              name="jours-travaillés"
+              id="jours-travaillés"
+              placeholder="Nombre"
+              class="input-borderbottom"
+            />
+          </div>
+          <button class="button btn_filled" onclick="openForm(event)">
+            Commencer
+          </button>
+          <p>
+            En utilisant cette calculatrice d'émission de carbone, vous acceptez
+            que les informations soient inscrites et stockées dans notre base de
+            données publique.
+          </p>
+        </form>
+      </div>
+      <!-- feuilles à droite du formulaire -->
+      <div class="calculateur__leavesright">
+        <div class="calculateur__leavesright-elipses">
+          <img src="/images/Ellipse 61(1).svg" alt="ellipse" />
+          <div class="calculateur__leavesright-elipseslittle">
+            <img src="/images/Ellipse 62.svg" alt="ellipse2" />
+            <img src="/images/Ellipse 63.svg" alt="ellipse3" />
+          </div>
+        </div>
+        <img src="/images/TracÔÇÜ69.svg" alt="feuille2" />
+      </div>
 
-<!-- Fenêtre modale -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <p id="modalMessage">Les émissions de CO2 pour votre trajet domicile/travail seront affichées ici.</p>
-  </div>
-</div>
-
+      <!-- Fenêtre modale -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <p id="modalMessage">
+            Les émissions de CO2 pour votre trajet domicile/travail seront
+            affichées ici.
+          </p>
+        </div>
+      </div>
     </main>
     <footer>
-
-      <ul class="footer__links">      <p class="footer__copyright">Copyright 2022 CO2WEB. All rights reserved.</p>
+      <ul class="footer__links">
+        <li>
+          <p class="footer__copyright">
+            Copyright 2022 CO2WEB. All rights reserved.
+          </p>
+        </li>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="modeEmploi.html">Mode d'emploi</a></li>
         <li><a href="trouverVelib.html">Trouver un velib</a></li>
