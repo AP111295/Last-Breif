@@ -4,6 +4,7 @@
     height: auto;
 
     &__description {
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -54,10 +55,9 @@
             }
         
             &__button {
-                
-                p {
-                   
-                }
+                border: 2px solid black;
+               flex-direction: column; 
+               margin: 10px;
             }
             img {
                 position: relative;
