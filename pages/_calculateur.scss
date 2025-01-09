@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 480px) {
   .calculateur {
-    margin-top: 15%;
+    margin-top: 20%;
     &__leavesleft {
       display: none;
     }
@@ -120,7 +120,7 @@
         padding: 0px;
         display: flex;
         flex-direction: column;
-        height: 350px;
+        height: 400px;
 
         .labelInput-column {
           width: 90%;
@@ -135,7 +135,8 @@
   p {
     width: 90%;
     margin: auto;
-    font-size: 10px;
+    font-size: 13px;
+    line-height: 15px;
   }
 
   .labelInput-column {
@@ -144,7 +145,40 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 800px) {
+  .calculateur {
+    height: 200px;
+    margin-top: 10%;
+
+    &__leavesleft {
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      img {
+        margin: -10%;
+        width: 80%;
+        position: relative;
+        left: 50%;
+        top: 90%;
+      }
+    }
+    .calculateur__container {
+      .contact__form {
+        padding: 10px;
+        .labelInput-column {
+          input {
+            margin-top: 0px;
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
   .calculateur {
     height: 200px;
 
@@ -164,8 +198,11 @@
     .calculateur__container {
       .contact__form {
         padding: 10px;
-        input {
-          margin-top: 0px;
+        .labelInput-column {
+          input {
+            margin-top: 0px;
+            width: 95%;
+          }
         }
       }
     }
