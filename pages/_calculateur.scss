@@ -184,10 +184,10 @@
 
     &__leavesleft {
       img {
-        width: 100%;
+        width: 150%;
         position: relative;
         left: 10%;
-        bottom: 10%;
+        top: 30%;
       }
     }
 
@@ -200,11 +200,18 @@
     }
 
     .calculateur__container {
-      width: 70%;
+      width: 250%;
       margin: auto;
       .contact__form {
-        width: 300%;
+        p {
+          line-height: normal;
+          margin-top: 20px;
+        }
+        width: 100%;
         padding: 50px 5px 50px 5px;
+        .labelInput-column {
+          width: 90%;
+        }
         &-button {
           text-align: center;
         }
