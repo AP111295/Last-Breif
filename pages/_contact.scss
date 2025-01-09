@@ -91,9 +91,13 @@
     .contact__container {
       width: 90%;
       margin: auto;
+      margin-top: 5%;
+      h1 {
+        text-align: left;
+      }
       .contact__form {
         margin: auto;
-        margin-bottom: 5px;
+        margin-bottom: 5%;
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -136,5 +140,8 @@
   .labelInput-column {
     width: 100%;
     align-items: center;
+  }
+  .input-borderbottom {
+    margin-top: 5px;
   }
 }
