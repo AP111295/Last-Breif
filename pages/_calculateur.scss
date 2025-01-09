@@ -21,11 +21,32 @@
   }
 
   &__leavesright {
-    z-index: 0;
+    .calculateur__leavesright-elipses {
+      display: flex;
+      position: relative;
+      z-index: 2;
+      margin-bottom: 20%;
+      top: 10%;
+      .calculateur__leavesright-elipseslittle {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: relative;
+        right: 25%;
+        img[src="/images/Ellipse 63.svg"] {
+          margin-top: 30px;
+          width: 90%;
+        }
+        img[src="/images/Ellipse 62.svg"] {
+          width: 110%;
+        }
+      }
+    }
     img {
-      width: 100%;
+      width: 80%;
       position: relative;
       right: 40%;
+      z-index: 0;
     }
   }
 
@@ -164,9 +185,43 @@
         top: 90%;
       }
     }
+
+    &__leavesright {
+      width: 40%;
+      margin-top: 5%;
+      .calculateur__leavesright-elipses {
+        display: flex;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20%;
+        top: 30%;
+        left: 20%;
+
+        img[src="/images/Ellipse 61(1).svg"] {
+          width: 50%;
+        }
+
+        .calculateur__leavesright-elipseslittle {
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          position: relative;
+          right: 25%;
+          img[src="/images/Ellipse 63.svg"] {
+            margin-top: 30px;
+            width: 60%;
+          }
+          img[src="/images/Ellipse 62.svg"] {
+            width: 80%;
+          }
+        }
+      }
+    }
+
     .calculateur__container {
       .contact__form {
         padding: 10px;
+        height: 400px;
         .labelInput-column {
           input {
             margin-top: 0px;
@@ -180,6 +235,7 @@
 
 @media screen and (max-width: 800px) and (min-width: 480px) {
   .calculateur {
+    width: 100%;
     margin-top: 20%;
 
     &__leavesleft {
@@ -195,7 +251,11 @@
       z-index: 0;
       img {
         width: 100%;
-        right: 40%;
+        right: 30%;
+        top: 40%;
+      }
+      .calculateur__leavesright-elipses {
+        top: 30%;
       }
     }
 
@@ -203,17 +263,20 @@
       width: 250%;
       margin: auto;
       .contact__form {
-        p {
-          line-height: normal;
-          margin-top: 20px;
-        }
         width: 100%;
         padding: 50px 5px 50px 5px;
-        .labelInput-column {
-          width: 90%;
+        p {
+          line-height: normal;
+          margin-top: 10%;
         }
         &-button {
           text-align: center;
+        }
+        .labelInput-column {
+          input {
+            margin-top: 0px;
+            width: 90%;
+          }
         }
       }
     }

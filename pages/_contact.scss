@@ -21,11 +21,31 @@
   }
 
   &__leavesright {
-    z-index: 0;
+    .contact__leavesright-elipses {
+      display: flex;
+      position: relative;
+      z-index: 2;
+      margin-bottom: 20%;
+      .contact__leavesright-elipseslittle {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: relative;
+        right: 25%;
+        img[src="/images/Ellipse 63.svg"] {
+          margin-top: 30px;
+          width: 90%;
+        }
+        img[src="/images/Ellipse 62.svg"] {
+          width: 110%;
+        }
+      }
+    }
     img {
       width: 100%;
       position: relative;
       right: 40%;
+      z-index: 0;
     }
   }
 
@@ -164,6 +184,38 @@
         width: 80%;
         position: relative;
         left: 50%;
+      }
+    }
+
+    &__leavesright {
+      width: 40%;
+      margin-top: 0%;
+      .contact__leavesright-elipses {
+        display: flex;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20%;
+        top: 0%;
+        left: 20%;
+
+        img[src="/images/Ellipse 61(1).svg"] {
+          width: 50%;
+        }
+
+        .contact__leavesright-elipseslittle {
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          position: relative;
+          right: 25%;
+          img[src="/images/Ellipse 63.svg"] {
+            margin-top: 30px;
+            width: 60%;
+          }
+          img[src="/images/Ellipse 62.svg"] {
+            width: 80%;
+          }
+        }
       }
     }
     .contact__container {
