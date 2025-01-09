@@ -29,6 +29,10 @@
     }
   }
 
+  .titre-mobile {
+    display: none;
+  }
+
   .calculateur__container {
     z-index: 1;
     width: 100%;
@@ -93,6 +97,14 @@
     &__leavesright {
       display: none;
     }
+
+    .titre-display {
+      display: none;
+    }
+    .titre-mobile {
+      display: block;
+      text-align: left;
+    }
     .calculateur__container {
       width: 90%;
       margin: auto;
@@ -103,7 +115,8 @@
       }
       .contact__form {
         margin: auto;
-        margin-bottom: 5px;
+        margin-bottom: 5%;
+        margin-top: 5%;
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -117,6 +130,11 @@
         }
       }
     }
+  }
+  p {
+    width: 90%;
+    margin: auto;
+    font-size: 10px;
   }
 
   .labelInput-column {
