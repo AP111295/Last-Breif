@@ -4,6 +4,9 @@ footer {
   width: 100%;
   z-index: 1;
   background-color: $blanc;
+  .footer__copyright {
+    display: none;
+  }
   .footer__links {
     @extend .navigation__links;
     justify-content: end;
@@ -17,12 +20,17 @@ footer {
 
 @media screen and (max-width: 480px) {
   footer {
-    position: relative;
+    position: fixed;
+    float: inline-end;
     width: 100%;
     overflow: hidden;
+    .footer__copyright {
+      display: block;
+    }
     .footer__links {
       display: flex;
       flex-direction: row !important;
+      justify-content: left;
       flex-wrap: wrap;
       padding-left: 0px;
     }

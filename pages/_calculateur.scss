@@ -120,6 +120,7 @@
         padding: 0px;
         display: flex;
         flex-direction: column;
+        height: 350px;
 
         .labelInput-column {
           width: 90%;
@@ -140,5 +141,33 @@
   .labelInput-column {
     width: 100%;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .calculateur {
+    height: 200px;
+
+    &__leavesleft {
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      img {
+        margin: -10%;
+        width: 80%;
+        position: relative;
+        left: 50%;
+      }
+    }
+    .calculateur__container {
+      .contact__form {
+        padding: 10px;
+        input {
+          margin-top: 0px;
+        }
+      }
+    }
   }
 }

@@ -91,9 +91,13 @@
     .contact__container {
       width: 90%;
       margin: auto;
+      margin-top: 5%;
+      h1 {
+        text-align: left;
+      }
       .contact__form {
         margin: auto;
-        margin-bottom: 5px;
+        margin-bottom: 5%;
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -136,5 +140,36 @@
   .labelInput-column {
     width: 100%;
     align-items: center;
+  }
+  .input-borderbottom {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .contact {
+    height: 200px;
+
+    &__leavesleft {
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      img {
+        margin: -10%;
+        width: 80%;
+        position: relative;
+        left: 50%;
+      }
+    }
+    .contact__container {
+      .contact__form {
+        padding: 10px;
+        input {
+          margin-top: 0px;
+        }
+      }
+    }
   }
 }
