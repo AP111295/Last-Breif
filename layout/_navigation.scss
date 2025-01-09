@@ -19,6 +19,9 @@
     li {
       list-style: none;
     }
+    .onPage {
+      font-weight: bolder;
+    }
     a {
       @include links-nudeMarged;
       color: $vert_4;
