@@ -61,13 +61,10 @@
     scroll-snap-type: x mandatory;
   }
   .card {
-    margin-left: 1rem;
-    width: 325px;
-    // width: 100%;
+    width: 100vw;
     height: 360px;
-    flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 325px;
+    flex-basis: 100vw;
     scroll-snap-align: start;
     text-align: center;
   }
