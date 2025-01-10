@@ -26,12 +26,12 @@ L'application est conçue pour être responsive et s'adapter aux dimensions suiv
 
 Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 
-- ** Sass ** : Sass est un préprocesseur CSS qui permet de mieux organiser et structurer les fichiers CSS. Si vous n'avez pas encore installé Sass, vous pouvez le faire via npm.
+- **Sass** : Sass est un préprocesseur CSS qui permet de mieux organiser et structurer les fichiers CSS. Si vous n'avez pas encore installé Sass, vous pouvez le faire via npm.
 
 ### Etapes d'installation
 
 1- Clonez ce dépot sur votre machine locale : `git clone https://github.com/AP111295/Last-Breif`
 2- Installez Sass via npm: `npm install -g sass`
-3- Compilez le fichier SCSS en CSS : Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss :
+3- Compilez le fichier SCSS en CSS : Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch main.scss main.css`
 
 ## Structure des fichiers :
