@@ -28,6 +28,8 @@ section {
   @media (max-width: 768px) {
     padding-top: 0%;
     padding-right: 0%;
+    width: auto;
+    padding: 1rem;
     //border: solid blue;
   }
   .hero-p1 {
@@ -36,14 +38,16 @@ section {
     font-size: 22px;
     @media (max-width: 768px) {
       font-size: 15px;
+      margin: 0;
+      width: auto;
     }
   }
   .hero-p2 {
     font-family: "Montserrat", serif;
     font-size: 25px;
     @media (max-width: 768px) {
-      font-size: 16px;
-      padding: 10px;
+      font-size: 15px;
+      width: auto;
     }
   }
 }
@@ -101,7 +105,7 @@ section {
   border-radius: 0 3px 3px 0;
   user-select: none;
   @media (max-width: 768px) {
-    top: 95%;
+    top: 75%;
     padding-top: 20%;
     width: 30%;
   }
