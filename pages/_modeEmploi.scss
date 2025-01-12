@@ -4,7 +4,7 @@
     margin-left: 231px;
   }
 
-  #card {
+  .card_container {
     margin-top: 25px;
     display: flex;
     justify-content: center;
@@ -51,10 +51,14 @@
     top: -0.05em;
     left: 18.15em;
   }
+
+  .slider_indicator_container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  #card {
+  .card_container {
     display: flex;
     overflow-x: scroll;
     padding: 1rem 0;
@@ -74,21 +78,23 @@
     height: 132.18px;
   }
 
+  #background_circles,
+  #demi_elipse {
+    display: none;
+  }
+
   #card_p {
     width: 325px;
   }
 
-  // ::-webkit-scrollbar-track {
-  //   background-color: #f5f5f5;
-  // }
+  .slider_indicator_container {
+    display: flex;
+  }
 
-  // ::-webkit-scrollbar {
-  //   height: 6px;
-  //   background-color: #f5f5f5;
-  // }
-
-  // ::-webkit-scrollbar-thumb {
-  //   background-color: #3d4852;
-  //   border-radius: 3px;
-  // }
+  .slider_indicator {
+    background-color: rgba(1, 153, 97, 1);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+  }
 }
