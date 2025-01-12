@@ -58,6 +58,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .card_slider {
+    position: relative;
+  }
+
   .card_container {
     display: flex;
     overflow-x: scroll;
@@ -89,6 +93,10 @@
 
   .slider_indicator_container {
     display: flex;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    justify-content: center;
   }
 
   .slider_indicator {
