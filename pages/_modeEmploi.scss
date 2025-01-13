@@ -52,22 +52,44 @@
     left: 18.15em;
   }
 
+  .arrow_card_container img {
+    display: none;
+  }
   .slider_indicator_container {
     display: none;
   }
 }
 
 @media screen and (max-width: 480px) {
+  // #mode_emploi_main {
+  // }
+
   .card_slider {
     position: relative;
+  }
+
+  .arrow_card_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+  }
+
+  .arrow_card_container img {
+    height: 26px;
+    width: 26px;
   }
 
   .card_container {
     display: flex;
     overflow-x: scroll;
+    scrollbar-width: none;
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
   }
+
   .card {
     width: 100vw;
     height: 360px;
