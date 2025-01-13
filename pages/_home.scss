@@ -7,11 +7,22 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 50%;
+        width: 60%;
         padding: 4%;
-        padding-right: 15%;
+        padding-right: 10%;
         margin-right: 5%;
+
+        P {
+            line-height: 35px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            line-height: normal;
+            margin-bottom: 30px;
+        }
     }
+
 
     &__button {
         text-align: center;
@@ -52,9 +63,10 @@
         h1 {
             width: 100%;
             padding-bottom: 20px;
+            margin-bottom: 0px;
         }
 
-        &__p {
+        p {
             line-height: normal;
             margin: 0;
             padding-bottom: 10px;
@@ -62,7 +74,13 @@
 
         &__button {
             flex-direction: column;
-            margin: 30px;
+            width: 100%;
+            margin: auto;
+
+            p {
+                margin: 10px;
+                padding-bottom: 0px;
+            }
         }
 
         img {
@@ -71,6 +89,25 @@
             bottom: 5%;
             width: 300px;
             height: 300px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 800px) and (min-width:480px) {
+    .index {
+        flex-direction: column-reverse;
+        margin: 0px;
+        overflow: hidden;
+        height: 900px;
+
+        img {
+            position: relative;
+            left: 52px;
+            bottom: 0px;
+            width: 100%;
+            height: 600px;
         }
     }
 }
