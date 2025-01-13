@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Mode d'emploi</title>
   </head>
 
   <body>
@@ -30,9 +30,8 @@
           </li>
           <li><a class="menuItem" href="calculateur.html">Calculateur</a></li>
           <li><a class="menuItem" href="apropos.html">A propos</a></li>
-          <li><a class="menuItem" href="contact.html">Contact</a></li>
+          <li><a class="menuItem onPage" href="contact.html">Contact</a></li>
         </ul>
-
         <button class="hamburger">
           <i class="menuIcon">☰</i>
           <i class="closeIcon">X</i>
@@ -46,61 +45,44 @@
         marche ?
       </h1>
 
-      <div id="card">
-        <div class="menu">
-          <label for="slide-dot-1"></label>
-          <label for="slide-dot-2"></label>
-          <label for="slide-dot-3"></label>
+      <div class="card_slider">
+        <div class="card_container">
+          <div class="card card_no_background">
+            <img src="images/Groupe60.svg" alt="analyse" />
+            <h2 class="card_h2">Analyser votre site</h2>
+            <p class="card_p">
+              Posuere nisi, ullamcorper sed volutpat cras dignissim a leo
+              iaculis ut lectus mauris id consequat, mattis interdum viverra
+              eros, amet
+            </p>
+          </div>
+
+          <div class="card card_background">
+            <img id="background_circles" src="images/bubbles.svg" alt="" />
+            <img id="demi_elipse" src="images/Ellipse 61.svg" alt="Ellipse" />
+            <img src="images/Groupe62.svg" alt="analyse" />
+            <h2 class="card_h2">Utiliser le calculateur magique</h2>
+            <p class="card_p">
+              Posuere nisi, ullamcorper sed volutpat cras dignissim a leo
+              iaculis ut lectus mauris id consequat, mattis interdum viverra
+              eros, amet
+            </p>
+          </div>
+
+          <div class="card card_no_background">
+            <img src="images/Groupe64.svg" alt="analyse" />
+            <h2 class="card_h2">Obtenez les résultats</h2>
+            <p class="card_p">
+              Posuere nisi, ullamcorper sed volutpat cras dignissim a leo
+              iaculis ut lectus mauris id consequat, mattis interdum viverra
+              eros, amet
+            </p>
+          </div>
         </div>
-
-        <input
-          class="slide-input"
-          id="slide-dot-1"
-          type="radio"
-          name="slides"
-          checked
-        />
-
-        <div class="card card_no_background">
-          <img src="images/Groupe60.svg" alt="analyse" />
-          <h2 class="card_h2">Analyser votre site</h2>
-          <p class="card_p">
-            Posuere nisi, ullamcorper sed volutpat cras dignissim a leo iaculis
-            ut lectus mauris id consequat, mattis interdum viverra eros, amet
-          </p>
-        </div>
-
-        <input
-          class="slide-input"
-          id="slide-dot-2"
-          type="radio"
-          name="slides"
-        />
-
-        <div class="card card_background">
-          <img id="background_circles" src="images/bubbles.svg" alt="" />
-          <img id="demi_elipse" src="images/Ellipse 61.svg" alt="Ellipse" />
-          <img src="images/Groupe62.svg" alt="analyse" />
-          <h2 class="card_h2">Utiliser le calculateur magique</h2>
-          <p class="card_p">
-            Posuere nisi, ullamcorper sed volutpat cras dignissim a leo iaculis
-            ut lectus mauris id consequat, mattis interdum viverra eros, amet
-          </p>
-        </div>
-
-        <input
-          class="slide-input"
-          id="slide-dot-3"
-          type="radio"
-          name="slides"
-        />
-        <div class="card card_no_background">
-          <img src="images/Groupe64.svg" alt="analyse" />
-          <h2 class="card_h2">Obtenez les résultats</h2>
-          <p class="card_p">
-            Posuere nisi, ullamcorper sed volutpat cras dignissim a leo iaculis
-            ut lectus mauris id consequat, mattis interdum viverra eros, amet
-          </p>
+        <div class="slider_indicator_container">
+          <div class="slider_indicator indicator_active"></div>
+          <div class="slider_indicator"></div>
+          <div class="slider_indicator"></div>
         </div>
       </div>
     </main>
@@ -116,5 +98,6 @@
       </ul>
     </footer>
     <script src="navigation.js"></script>
+    <script src="card_slider.js"></script>
   </body>
 </html>
