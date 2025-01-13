@@ -30,8 +30,6 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 
 ### Etapes d'installation
 
-1- Clonez ce dépot sur votre machine locale : `git clone https://github.com/AP111295/Last-Breif`
-2- Installez Sass via npm: `npm install -g sass`
-3- Compilez le fichier SCSS en CSS : Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch main.scss main.css`
-
-## Structure des fichiers :
+1- **Clonez ce dépot sur votre machine locale :** `git clone https://github.com/AP111295/Last-Breif`
+2- **Installez Sass via npm :** `npm install -g sass`
+3- **Compilez le fichier SCSS en CSS :** Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch main.scss main.css`
