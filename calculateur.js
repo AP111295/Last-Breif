@@ -24,7 +24,7 @@ function openForm(event) {
   }
 
   // Calcul des émissions de CO2
-  let emissionsCO2 = distance * joursTravailles * 0.12;
+  let emissionsCO2 = distance * joursTravailles * 0.12 * 4.33;
 
   // Affichage du message dans la modale
   let modal = document.getElementById("modal");

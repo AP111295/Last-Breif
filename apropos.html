@@ -20,14 +20,21 @@
           alt="Logo CO2 Web"
           class="navigation__logo"
         />
-        <ul class="navigation__links">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="modeEmploi.html">Mode d'emploi</a></li>
-          <li><a href="trouverVelib.html">Trouver un velib</a></li>
-          <li><a href="calculateur.html">Calculateur</a></li>
-          <li><a href="apropos.html">A propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
+
+        <ul class="navigation__links menu">
+          <li><a class="menuItem" href="index.html">Accueil</a></li>
+          <li><a class="menuItem" href="modeEmploi.html">Mode d'emploi</a></li>
+          <li>
+            <a class="menuItem" href="trouverVelib.html">Trouver un velib</a>
+          </li>
+          <li><a class="menuItem" href="calculateur.html">Calculateur</a></li>
+          <li><a class="menuItem" href="apropos.html">A propos</a></li>
+          <li><a class="menuItem" href="contact.html">Contact</a></li>
         </ul>
+        <button class="hamburger">
+          <i class="menuIcon">☰</i>
+          <i class="closeIcon">X</i>
+        </button>
       </div>
     </nav>
     <!-- second page -->
@@ -43,12 +50,9 @@
           </h1>
           <p class="hero-p1">
             Arcu, ultrice amet,ac rhoncus eget egestas diam a malesuada
-            tristique <br />
-            blandit elementum dapibus proin pretium rhoncus, viverra sagittis
-            libero,<br />
-            libero varius accumsan ridiculus amet nam duis sit vestibulum nibh
-            eget <br />
-            ultrices magna facilisis potenti
+            tristique blandit elementum dapibus proin pretium rhoncus, viverra
+            sagittis libero, libero varius accumsan ridiculus amet nam duis sit
+            vestibulum nibh eget ultrices magna facilisis potenti
           </p>
           <div>
             <img
@@ -59,8 +63,8 @@
           </div>
 
           <p2 class="hero-p2">
-            Aenean egestas fermentum, at elementum ut ut eu,<br />
-            feugiat sit feugiat morbi id ipsum tincidunt
+            Aenean egestas fermentum, at elementum ut ut eu, feugiat sit feugiat
+            morbi id ipsum tincidunt
           </p2>
         </div>
       </section>
@@ -81,11 +85,10 @@
               propos du projet
             </h1>
             <p class="hero-p3">
-              Arcu, ultrice amet,ac rhoncus eget egestas diam a <br />
-              malesuada tristique blandit elementum dapibus proin <br />
-              pretium rhoncus, viverra sagittis libero, libero varius <br />
-              accumsan ridiculus amet nam duis sit vestibulum nibh <br />
-              eget ultrices magna facilisis potenti
+              Arcu, ultrice amet,ac rhoncus eget egestas diam a malesuada
+              tristique blandit elementum dapibus proin pretium rhoncus, viverra
+              sagittis libero, libero varius accumsan ridiculus amet nam duis
+              sit vestibulum nibh eget ultrices magna facilisis potenti
             </p>
           </div>
         </section>
@@ -106,5 +109,6 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </footer>
+    <script src="navigation.js"></script>
   </body>
 </html>
