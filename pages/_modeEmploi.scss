@@ -61,27 +61,24 @@
 }
 
 @media screen and (max-width: 480px) {
+  // #mode_emploi_main {
+  // }
+
   .card_slider {
     position: relative;
   }
 
   .arrow_card_container {
     display: flex;
-  }
-
-  .arrow_card_container img {
-    height: 30px;
-    width: 30px;
-  }
-
-  .arrow_card_left,
-  .arrow_card_right {
+    justify-content: space-between;
+    width: 100%;
     position: absolute;
     top: 15%;
   }
 
-  .arrow_card_right {
-    right: 0;
+  .arrow_card_container img {
+    height: 26px;
+    width: 26px;
   }
 
   .card_container {
@@ -90,6 +87,7 @@
     scrollbar-width: none;
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
   }
 
   .card {
