@@ -52,6 +52,9 @@
     left: 18.15em;
   }
 
+  .arrow_card_container img {
+    display: none;
+  }
   .slider_indicator_container {
     display: none;
   }
@@ -62,12 +65,33 @@
     position: relative;
   }
 
+  .arrow_card_container {
+    display: flex;
+  }
+
+  .arrow_card_container img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .arrow_card_left,
+  .arrow_card_right {
+    position: absolute;
+    top: 15%;
+  }
+
+  .arrow_card_right {
+    right: 0;
+  }
+
   .card_container {
     display: flex;
     overflow-x: scroll;
+    scrollbar-width: none;
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
   }
+
   .card {
     width: 100vw;
     height: 360px;
