@@ -8,7 +8,6 @@
 }
 
 .btn_filled {
-  width: 169px;
   height: 59px;
   background: $gradient_1;
   box-shadow: 0 8px 14px #54b55a80;
@@ -22,4 +21,24 @@
   color: $vert_4;
   border: 2px solid $vert_4;
   background-color: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn_filled {
+    width: 169px;
+  }
+
+  .btn_outlined {
+    width: 182px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn_filled {
+    width: 325px;
+  }
+
+  .btn_outlined {
+    width: 325px;
+  }
 }
