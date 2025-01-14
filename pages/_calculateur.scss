@@ -153,11 +153,12 @@
       }
     }
   }
-  // p {
-  //   width: 90%;
-  //   margin: auto;
-  //   font-size: 10px;
-  // }
+  p {
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    line-height: 15px;
+  }
 
   .labelInput-column {
     width: 100%;
@@ -165,9 +166,10 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 800px) {
   .calculateur {
     height: 200px;
+    margin-top: 10%;
 
     &__leavesleft {
       z-index: 0;
@@ -180,13 +182,101 @@
         width: 80%;
         position: relative;
         left: 50%;
+        top: 90%;
       }
     }
+
+    &__leavesright {
+      width: 40%;
+      margin-top: 5%;
+      .calculateur__leavesright-elipses {
+        display: flex;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20%;
+        top: 30%;
+        left: 20%;
+
+        img[src="/images/Ellipse 61(1).svg"] {
+          width: 50%;
+        }
+
+        .calculateur__leavesright-elipseslittle {
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          position: relative;
+          right: 25%;
+          img[src="/images/Ellipse 63.svg"] {
+            margin-top: 30px;
+            width: 60%;
+          }
+          img[src="/images/Ellipse 62.svg"] {
+            width: 80%;
+          }
+        }
+      }
+    }
+
     .calculateur__container {
       .contact__form {
         padding: 10px;
-        input {
-          margin-top: 0px;
+        height: 400px;
+        .labelInput-column {
+          input {
+            margin-top: 0px;
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+  .calculateur {
+    width: 100%;
+    margin-top: 20%;
+
+    &__leavesleft {
+      img {
+        width: 150%;
+        position: relative;
+        left: 10%;
+        top: 30%;
+      }
+    }
+
+    &__leavesright {
+      z-index: 0;
+      img {
+        width: 100%;
+        right: 30%;
+        top: 40%;
+      }
+      .calculateur__leavesright-elipses {
+        top: 30%;
+      }
+    }
+
+    .calculateur__container {
+      width: 250%;
+      margin: auto;
+      .contact__form {
+        width: 100%;
+        padding: 50px 5px 50px 5px;
+        p {
+          line-height: normal;
+          margin-top: 10%;
+        }
+        &-button {
+          text-align: center;
+        }
+        .labelInput-column {
+          input {
+            margin-top: 0px;
+            width: 90%;
+          }
         }
       }
     }
