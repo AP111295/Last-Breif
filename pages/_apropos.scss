@@ -1,10 +1,22 @@
-section {
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+.section2 {
   margin-top: 4rem;
   height: 700px;
+  display: flex;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
 }
+
+.tree {
+  @media (max-width: 768px) {
+    //border: solid red;
+    width: auto;
+    height: 200px;
+    padding-left: 30%;
+  }
+}
+
 .image2 {
   padding-top: 7rem;
   @media (max-width: 768px) {
@@ -44,6 +56,7 @@ section {
     @media (max-width: 768px) {
       width: auto;
       font-size: 15px;
+      justify-content: space-between;
     }
   }
 }
@@ -52,6 +65,11 @@ section {
   padding-left: 15%;
   padding-bottom: 8%;
   width: 800px;
+  @media (max-width: 768px) {
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
   .hero-p3 {
     font-family: "Montserrat", serif;
@@ -60,6 +78,20 @@ section {
     letter-spacing: 2px;
     @media (max-width: 768px) {
       font-size: 15px;
+      padding-bottom: 2rem;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding-right: 15px;
+    }
+  }
+  .underline2 {
+    display: none;
+    @media (max-width: 768px) {
+      display: inline;
+      width: 40%;
+      position: absolute;
+      top: 72%;
     }
   }
 }
@@ -105,6 +137,12 @@ section {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 6rem;
   @media (max-width: 768px) {
     top: 35%;
     margin-top: 0;
@@ -112,14 +150,14 @@ section {
     left: 20rem;
   }
 }
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-  margin-right: 6rem;
-}
 .prev {
   margin-left: 6rem;
+  @media (max-width: 768px) {
+    top: 30%;
+    margin-top: 0;
+    padding: 0;
+    right: 20rem;
+  }
 }
 
 /* Fading animation */
