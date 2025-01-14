@@ -61,10 +61,16 @@
 }
 
 @media screen and (max-width: 480px) {
-  // #mode_emploi_main {
-  // }
+  #mode_emploi_main {
+    margin-top: 60px;
+  }
+
+  #mode_emploi_h1 {
+    margin-left: 25px;
+  }
 
   .card_slider {
+    margin-top: 25px;
     position: relative;
   }
 
@@ -109,14 +115,14 @@
     display: none;
   }
 
-  #card_p {
-    width: 325px;
+  .card_h2 {
+    margin: 25px 0;
   }
 
   .slider_indicator_container {
     display: flex;
     position: absolute;
-    bottom: 3%;
+    bottom: 15%;
     width: 100%;
     justify-content: center;
   }
@@ -127,6 +133,10 @@
     height: 10px;
     width: 10px;
     border-radius: 100%;
+  }
+
+  .slider_indicator:not(:first-child) {
+    margin-left: 10px;
   }
 
   .indicator_active {
