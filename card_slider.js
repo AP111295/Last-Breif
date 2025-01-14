@@ -31,20 +31,22 @@ window.addEventListener("load", function () {
     return card_position.left === 0;
   });
 
-  arrow_left.addEventListener("click", function () {
-    const currIdx = current_index;
-
-    if (currIdx > 0) {
-      cards[currIdx - 1].scrollIntoView({ behavior: "smooth" });
+  var currIdx = 0;
+  arrow_right.addEventListener("click", function () {
+    if (currIdx > cards.length) {
+      currIdx = 0;
+    } else {
+      currIdx = currIdx + 1;
     }
+    cards[currIdx].scrollIntoView({ behavior: "smooth" });
   });
 
-  arrow_right.addEventListener("click", function () {
-    const currIdx = current_index;
-
-    if (currIdx < slider_indicators.length - 1) {
-      cards[currIdx + 1].scrollIntoView({ behavior: "smooth" });
-      return currIdx === 0;
+  arrow_left.addEventListener("click", function () {
+    if (currIdx < 0) {
+      currIdx = cards.length;
+    } else {
+      currIdx = currIdx - 1;
     }
+    cards[currIdx].scrollIntoView({ behavior: "smooth" });
   });
 });
