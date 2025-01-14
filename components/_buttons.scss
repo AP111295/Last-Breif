@@ -8,11 +8,16 @@
 }
 
 .btn_filled {
+  width: 169px;
   height: 59px;
   background: $gradient_1;
   box-shadow: 0 8px 14px #54b55a80;
   color: $blanc;
   border: none;
+}
+
+.btn_filled:hover {
+  background-color: #3dad5c;
 }
 
 .btn_outlined {
@@ -21,6 +26,10 @@
   color: $vert_4;
   border: 2px solid $vert_4;
   background-color: transparent;
+}
+
+.btn_outlined:hover {
+  background-color: #3dad5c;
 }
 
 @media screen and (min-width: 1024px) {
