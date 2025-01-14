@@ -109,62 +109,6 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  .calculateur {
-    margin-top: 20%;
-    &__leavesleft {
-      display: none;
-    }
-    &__leavesright {
-      display: none;
-    }
-
-    .titre-display {
-      display: none;
-    }
-    .titre-mobile {
-      display: block;
-      text-align: left;
-    }
-    .calculateur__container {
-      width: 90%;
-      margin: auto;
-      button {
-        width: 80%;
-        margin: auto;
-        margin-bottom: 10px;
-      }
-      .contact__form {
-        margin: auto;
-        margin-bottom: 5%;
-        margin-top: 5%;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-
-        .labelInput-column {
-          width: 90%;
-          align-items: baseline;
-          input {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
-  // p {
-  //   width: 90%;
-  //   margin: auto;
-  //   font-size: 10px;
-  // }
-
-  .labelInput-column {
-    width: 100%;
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 1400px) {
   .calculateur {
     height: 200px;
@@ -190,5 +134,65 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .calculateur {
+    margin-top: 20%;
+    p {
+      width: 80%;
+      margin: auto;
+      font-size: 10px;
+      line-height: normal;
+      margin-top: 10px;
+    }
+    &__leavesleft {
+      display: none;
+    }
+    &__leavesright {
+      display: none;
+    }
+
+    .titre-display {
+      display: none;
+    }
+    .titre-mobile {
+      display: block;
+      text-align: left;
+    }
+    .calculateur__container {
+      width: 90%;
+      margin: auto;
+      button {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .contact__form {
+        margin: auto;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+
+        .labelInput-column {
+          width: 90%;
+          align-items: baseline;
+          input {
+            margin-top: 10px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .labelInput-column {
+    width: 100%;
+    align-items: center;
   }
 }
