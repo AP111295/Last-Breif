@@ -111,7 +111,7 @@
 
 @media screen and (max-width: 480px) {
   .calculateur {
-    margin-top: 20%;
+    margin-top: 10%;
     &__leavesleft {
       display: none;
     }
@@ -129,6 +129,9 @@
     .calculateur__container {
       width: 90%;
       margin: auto;
+      h1[class="titre-mobile"] {
+        width: 50%;
+      }
       button {
         width: 80%;
         margin: auto;
