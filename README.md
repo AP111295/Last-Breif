@@ -59,7 +59,7 @@ Les polices d'écriture proviennent de Google Fonts, et sont les suivantes:
 
 ## Equipe de développement 👩🏻‍💻​
 
-https://github.com/AP111295
-https://github.com/kanekiko
-https://github.com/Anaisktl
+https://github.com/AP111295  
+https://github.com/kanekiko  
+https://github.com/Anaisktl  
 https://github.com/MarineHerbeth
