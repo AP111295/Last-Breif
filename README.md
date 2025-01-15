@@ -32,4 +32,12 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 
 1- **Clonez ce dépot sur votre machine locale :** `git clone https://github.com/AP111295/Last-Breif`
 2- **Installez Sass via npm :** `npm install -g sass`
-3- **Compilez le fichier SCSS en CSS :** Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch main.scss main.css`
+3- **Compilez le fichier SCSS en CSS :** Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch scss/main.scss public/main.css`
+4- Ouvrir index.html avec le navigateur
+
+## Equipe de développement
+
+https://github.com/AP111295
+https://github.com/kanekiko
+https://github.com/Anaisktl
+https://github.com/MarineHerbeth
