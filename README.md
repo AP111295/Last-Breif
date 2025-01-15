@@ -20,8 +20,6 @@ L'application est conçue pour être responsive et s'adapter aux dimensions suiv
 - **Mobile** : 360x800
 - **Tablette** : 768x1024
 
-## Utilisation 🖱️​
-
 ## Installation 🛠️
 
 ### Prérequis

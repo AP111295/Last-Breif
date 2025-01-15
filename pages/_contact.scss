@@ -32,11 +32,11 @@
         width: 50%;
         position: relative;
         right: 25%;
-        img[src="/images/Ellipse 63.svg"] {
+        img[src="/images/Ellipse63.svg"] {
           margin-top: 30px;
           width: 90%;
         }
-        img[src="/images/Ellipse 62.svg"] {
+        img[src="/images/Ellipse62.svg"] {
           width: 110%;
         }
       }
@@ -129,7 +129,7 @@
         top: 0%;
         left: 20%;
 
-        img[src="/images/Ellipse 61(1).svg"] {
+        img[src="/images/Ellipse61(1).svg"] {
           width: 50%;
         }
 
@@ -139,11 +139,11 @@
           width: 30%;
           position: relative;
           right: 25%;
-          img[src="/images/Ellipse 63.svg"] {
+          img[src="/images/Ellipse63.svg"] {
             margin-top: 30px;
             width: 60%;
           }
-          img[src="/images/Ellipse 62.svg"] {
+          img[src="/images/Ellipse62.svg"] {
             width: 80%;
           }
         }
@@ -154,40 +154,6 @@
         padding: 10px;
         input {
           margin-top: 0px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 800px) and (min-width: 480px) {
-  .contact {
-    margin-top: 20%;
-
-    &__leavesleft {
-      img {
-        width: 150%;
-        position: relative;
-        left: 10%;
-        bottom: 10%;
-      }
-    }
-
-    &__leavesright {
-      z-index: 0;
-      img {
-        width: 100%;
-        right: 40%;
-      }
-    }
-
-    .contact__container {
-      width: 70%;
-      margin: auto;
-      .contact__form {
-        padding: 50px 5px 50px 5px;
-        &-button {
-          text-align: center;
         }
       }
     }
@@ -292,5 +258,39 @@
   }
   .input-borderbottom {
     margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+  .contact {
+    margin-top: 20%;
+
+    &__leavesleft {
+      img {
+        width: 150%;
+        position: relative;
+        left: 10%;
+        bottom: 10%;
+      }
+    }
+
+    &__leavesright {
+      z-index: 0;
+      img {
+        width: 100%;
+        right: 40%;
+      }
+    }
+
+    .contact__container {
+      width: 70%;
+      margin: auto;
+      .contact__form {
+        padding: 50px 5px 50px 5px;
+        &-button {
+          text-align: center;
+        }
+      }
+    }
   }
 }
