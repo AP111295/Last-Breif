@@ -35,6 +35,20 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 3- **Compilez le fichier SCSS en CSS :** Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch scss/main.scss public/main.css`
 4- Ouvrir index.html avec le navigateur
 
+## Ressources utilisées
+
+### Images
+
+Les images (images vectorielles au format .svg) sont stockées dans le dossier `/images/`
+
+### Typos
+
+Les polices d'écriture proviennent de Google Fonts, et sont les suivantes:
+
+- Montserrat
+- Roboto
+  [lien vers Google Fonts](https://fonts.google.com/)
+
 ## Equipe de développement 👩🏻‍💻​
 
 https://github.com/AP111295
