@@ -35,6 +35,28 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 3- **Compilez le fichier SCSS en CSS :** Le projet utilise Sass pour gérer les styles. Exécutez la commande suivante pour compiler les fichiers .scss : ` sass --watch scss/main.scss public/main.css`
 4- Ouvrir index.html avec le navigateur
 
+## Ressources utilisées
+
+### Images
+
+Les images (images vectorielles au format .svg) sont stockées dans le dossier `/images/`
+
+### Typos
+
+Les polices d'écriture proviennent de Google Fonts, et sont les suivantes:
+
+- Montserrat
+- Roboto
+  [lien vers Google Fonts](https://fonts.google.com/)
+
+### Autres
+
+- `calculateur.js` gère le contenu de la page `calculateur.html`, en particulier permet de calculer les émissions de CO₂ en fonction des données entrées. les valeurs sont obligatoirement en chiffre. Les deux champs sont requis pour activer la fonction de calcul. Celui ci apparaît sur une boîte de dialogue. Pour la fermer, il suffit de cliquer en dehors de celle ci.
+
+- `cards_slider.js` gère le carousel (défilement horizontal) sur la page `modeEmploi.html`.
+- `trouverVelib.js` gère le compteur sur la page `trouverVelib.html`.
+- `navigation.js` gère le comportement de la barre de navigation en haut de la page selon la taille de l'écran, ainsi que le fonctionnement du menu burger en format mobile.
+
 ## Equipe de développement 👩🏻‍💻​
 
 https://github.com/AP111295
