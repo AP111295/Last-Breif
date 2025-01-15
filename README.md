@@ -1,10 +1,10 @@
-# CO2WEB - Application de localisation de Vélib' et calcul d'émissions de CO2
+# CO2WEB - Application de localisation de Vélib' et calcul d'émissions de CO2 🚗💨
 
-## Description du projet
+## Description du projet 📖​
 
 Le projet "CO2WEB" est une application web qui permet de localiser des Vélib' à proximité tout en intégrant des fonctionnalités pour sensibiliser les utilisateurs sur les émissions de CO2 générées par les trajets en voiture. L'application présente une interface responsive adaptée à différents types de dispositifs (desktop, notebook, tablette et mobile).
 
-### Fonctionalités principales 🚗💨
+### Fonctionalités principales
 
 1. **Barre de navigation mobile avec menu burger** : La navigation sur la version mobile de l'application est facilitée par un menu burger qui permet d'afficher ou de cacher le menu de navigation.
 2. **Slide show sur la page "Comment ça marche"** : Un carrousel d'images et d'informations sur la page "Comment ça marche" améliore l'expérience utilisateur sur mobile.
