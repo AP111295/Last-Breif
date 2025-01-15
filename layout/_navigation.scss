@@ -42,8 +42,8 @@
     box-shadow: none;
     justify-content: space-between;
     align-items: baseline;
-    float: inline-start;
-    position: fixed;
+    position: relative;
+    bottom: 90%;
     z-index: 3;
     background-color: $blanc;
 
@@ -89,7 +89,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 85%;
+    height: 87%;
     z-index: 99;
     background: $blanc;
     color: $vert_4;
