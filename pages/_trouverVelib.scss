@@ -3,7 +3,7 @@
 }
 .countdown-container {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
   @media (max-width: 768px) {
     padding-top: 60%;
   }
@@ -47,4 +47,18 @@
 .HTV {
   font-size: 35px;
   padding: 2rem;
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+  .countdown-container {
+    padding-top: 40%;
+  }
+  .time-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    span {
+      font-size: 30px;
+    }
+  }
 }

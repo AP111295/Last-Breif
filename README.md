@@ -53,7 +53,7 @@ Les polices d'écriture proviennent de Google Fonts, et sont les suivantes:
 
 - `calculateur.js` gère le contenu de la page `calculateur.html`, en particulier permet de calculer les émissions de CO₂ en fonction des données entrées. les valeurs sont obligatoirement en chiffre. Les deux champs sont requis pour activer la fonction de calcul. Celui ci apparaît sur une boîte de dialogue. Pour la fermer, il suffit de cliquer en dehors de celle ci.
 
-- `cards_slider.js` gère le carousel (défilement horizontal) sur la page `modeEmploi.html`.
+- `card_slider.js` gère le carousel (défilement horizontal) sur la page `modeEmploi.html`.
 - `trouverVelib.js` gère le compteur sur la page `trouverVelib.html`.
 - `navigation.js` gère le comportement de la barre de navigation en haut de la page selon la taille de l'écran, ainsi que le fonctionnement du menu burger en format mobile.
 
