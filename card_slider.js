@@ -32,8 +32,9 @@ window.addEventListener("load", function () {
   });
 
   var currIdx = 0;
+  // Flèche droite
   arrow_right.addEventListener("click", function () {
-    if (currIdx > cards.length) {
+    if (currIdx >= cards.length - 1) {
       currIdx = 0;
     } else {
       currIdx = currIdx + 1;
@@ -41,9 +42,10 @@ window.addEventListener("load", function () {
     cards[currIdx].scrollIntoView({ behavior: "smooth" });
   });
 
+  // Flèche gauche
   arrow_left.addEventListener("click", function () {
-    if (currIdx < 0) {
-      currIdx = cards.length;
+    if (currIdx <= 0) {
+      currIdx = cards.length - 1;
     } else {
       currIdx = currIdx - 1;
     }
