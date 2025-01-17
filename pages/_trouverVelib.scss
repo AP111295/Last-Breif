@@ -3,8 +3,13 @@
 }
 .countdown-container {
   text-align: center;
+<<<<<<< HEAD
   padding-top: 10%;
   @media (max-width: 500px) {
+=======
+  padding-top: 15%;
+  @media (max-width: 768px) {
+>>>>>>> 50b98e009396e89ba90706cdca6e6127c0fe116b
     padding-top: 60%;
   }
 }
@@ -48,4 +53,18 @@
 .HTV {
   font-size: 40px;
   padding: 2rem;
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+  .countdown-container {
+    padding-top: 40%;
+  }
+  .time-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    span {
+      font-size: 30px;
+    }
+  }
 }
