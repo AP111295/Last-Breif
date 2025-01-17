@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1600px) {
   #mode_emploi_h1 {
     padding-top: 3em;
     margin-left: 231px;
@@ -50,6 +50,71 @@
     position: absolute;
     top: -0.05em;
     left: 18.15em;
+  }
+
+  .arrow_card_container img {
+    display: none;
+  }
+  .slider_indicator_container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  #mode_emploi_h1 {
+    padding-top: 2.7em;
+    margin-left: 231px;
+  }
+
+  .card_container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 316.88px;
+    padding: 20px 32px 20px 32px;
+    margin: 0 50px;
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card img {
+    width: 109.6px;
+    height: 105.74px;
+  }
+
+  .card_no_background {
+    height: 272.85px;
+    padding-top: 3.97em;
+  }
+
+  .card_background {
+    height: 374px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  #background_circles {
+    position: absolute;
+    z-index: -1;
+    width: 475.15px;
+    height: 485.35px;
+    left: -40px;
+  }
+
+  #demi_elipse {
+    position: absolute;
+    width: 93.16px;
+    height: 89.88px;
+    top: 0.01em;
+    left: 14.6em;
   }
 
   .arrow_card_container img {
