@@ -51,6 +51,8 @@ Les polices d'écriture proviennent de Google Fonts, et sont les suivantes:
 
 ### Autres
 
+Les pages Javascript sont stockées dans le dossier `/javascript/`
+
 - `calculateur.js` gère le contenu de la page `calculateur.html`, en particulier permet de calculer les émissions de CO₂ en fonction des données entrées. les valeurs sont obligatoirement en chiffre. Les deux champs sont requis pour activer la fonction de calcul. Celui ci apparaît sur une boîte de dialogue. Pour la fermer, il suffit de cliquer en dehors de celle ci.
 
 - `card_slider.js` gère le carousel (défilement horizontal) sur la page `modeEmploi.html`.
