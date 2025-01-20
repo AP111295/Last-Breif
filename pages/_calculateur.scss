@@ -50,7 +50,7 @@
     }
   }
 
-  .titre-mobile {
+  .title-mobile {
     display: none;
   }
 
@@ -119,17 +119,17 @@
       display: none;
     }
 
-    .titre-display {
+    .title-display {
       display: none;
     }
-    .titre-mobile {
+    .title-mobile {
       display: block;
       text-align: left;
     }
     .calculateur__container {
       width: 90%;
       margin: auto;
-      h1[class="titre-mobile"] {
+      h1[class="title-mobile"] {
         width: 50%;
       }
       button {
