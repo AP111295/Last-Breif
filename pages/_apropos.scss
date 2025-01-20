@@ -52,6 +52,12 @@
       font-size: 15px;
       padding-top: 0%;
     }
+    @media (max-width: 800px) {
+      width: auto;
+      font-size: 15px;
+      padding-top: 0px;
+      font-size: 18px;
+    }
   }
   .hero-p2 {
     font-family: "Montserrat", serif;
@@ -210,6 +216,10 @@
     position: relative;
     flex-direction: column;
     width: auto;
+    height: 100%;
+  }
+  .myslides {
+    height: 100%;
   }
   .image2 {
     width: 400px;
@@ -220,11 +230,5 @@
     padding-left: 16px;
     padding-top: 0%;
     padding-right: 16px;
-  }
-  .hero-p1 {
-    width: auto;
-    font-size: 15px;
-    padding-top: 0%;
-    font-size: 18px;
   }
 }
