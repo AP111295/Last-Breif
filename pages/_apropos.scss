@@ -205,13 +205,14 @@
 }
 
 //Tablette
-@media (max-width: 800px) {
+@media (max-width: 800px) and (min-width: 480px) {
   .flexbox {
     position: relative;
     flex-direction: column;
     width: auto;
   }
   .image2 {
+    width: 400px;
     padding-top: 5rem;
   }
   .Hero-text {
