@@ -179,6 +179,7 @@
     left: 80%;
   }
   @media (max-width: 800px) {
+    top: 30%;
     margin-top: 0;
     padding: 0;
     left: 85%;
@@ -221,6 +222,7 @@
   @media (max-width: 500px) {
     width: 25px;
     height: 25px;
+    margin-left: 1rem;
   }
 }
 .imgn {
