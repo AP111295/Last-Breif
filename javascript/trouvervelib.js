@@ -27,7 +27,7 @@ var x = setInterval(function () {
   // Output the result in an element with id="seconds"
   document.getElementById("seconds").innerHTML = seconds;
 
-  // If the count down is over, write some text
+  // If the count down is over, displaying a text some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("time-box").innerHTML = "EXPIRED";
